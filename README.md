@@ -12,10 +12,15 @@ A Python-based calorie estimator that predicts calorie counts from dish names us
 1. Clone the repository:
    ```bash
    git clone https://github.com/<your-username>/Food-Calorie-Estimator.git
+   
 cd Food-Calorie-Estimator
+
 pip install -r requirements.txt
+
 python train.py
+
 python predict.py "Chicken Biryani"
+
 Model Access
 
 The trained model file (final_model.pt) is not included in this repository.
